@@ -103,7 +103,7 @@ a:visited{
 #title{
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2em;
     padding-top: 20px;
 }
@@ -115,7 +115,9 @@ a:visited{
 .theme-light.slider-wrapper{
     padding: 0;
     background-color: transparent;
+    
 }
+
 
 .theme-light.slider-wrapper .nivo-controlNav{
     padding: 0 30px;
