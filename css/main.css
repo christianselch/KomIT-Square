@@ -65,11 +65,22 @@ body{
     font-size: 14px;
 }
 
+a{
+    color: #8C6B64;
+}
+
+a:visited{
+    color: #592E25;
+}
+
 #wrapper{
+    min-width: 350px;
     max-width: 880px;
     margin: 30px auto 0;
     background-color: #F2F1EB;
     box-shadow: 1px 0px 10px black;
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 
 #header{
@@ -119,7 +130,7 @@ body{
 }
 
 .slider-wrapper img{
-    max-height: 180px;
+    max-height: 250px;
 }
 
 #middle{
@@ -150,6 +161,13 @@ body{
     font-weight: bold;
 }
 
+#footerNote{
+    border-top: 1px solid #CCC;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
 
 
 /* ==========================================================================
@@ -158,15 +176,22 @@ body{
 
 @media (max-width: 600px) {
 
+    #main{
+        font-size: 1.2em;
+    }
+
     #main, #contactSidebar{
         width: 100%;
         margin: 0;
     }
 
     #contactSidebar{
-        border-top: 1px solid #CCC;
-        margin: 5px;
-        padding: 10px 0 0 0;
+        width: 110%;
+        border: 1px solid #CCC;
+        border-left: 0px;
+        border-right: 0px;
+        margin: 10px 10px 10px -10px;
+        padding: 0 0 14px 0;
         text-align: center;
     }
 
@@ -182,9 +207,20 @@ body{
     }
 
     .slider-wrapper img{
-        min-height: 80px !important;
+        min-height: 120px !important;
     }
 
+    .nivo-controlNav{
+        display: none;
+    }
+
+    .nivo-directionNav a.nivo-prevNav{
+        right: 80px;
+    }
+
+    .nivo-directionNav a.nivo-nextNav{
+        right: 30px;
+    }
 }
 
 
