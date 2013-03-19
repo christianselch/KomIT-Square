@@ -2,8 +2,10 @@
 	$(document).ready(function(){
 
 		$('#slider').nivoSlider({
-			effect: 'slideInLeft',
+			/* effect: 'slideInLeft', */
+			effect: "fade",
 			pauseTime: 3000,
+			directionNav: false,
 			prevText: "Forrige",
 			nextText: "Next",
 		});
