@@ -121,14 +121,8 @@ a:visited{
 
 .theme-light.slider-wrapper .nivo-controlNav{
     padding: 0 30px;
-}
-
-.nivo-directionNav a.nivo-prevNav{
-    right: 55px;
-}
-
-.nivo-directionNav a.nivo-nextNav{
-    right: 20px;
+    width: 85px;
+    margin: 0 auto;
 }
 
 .slider-wrapper img{
