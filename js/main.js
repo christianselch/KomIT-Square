@@ -4,7 +4,7 @@
 		$('#slider').nivoSlider({
 			/* effect: 'slideInLeft', */
 			effect: "fade",
-			pauseTime: 3000,
+			pauseTime: 5000,
 			directionNav: false,
 			prevText: "Forrige",
 			nextText: "Next",
