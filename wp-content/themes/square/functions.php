@@ -11,7 +11,7 @@
 
 
     wp_enqueue_script( 'modernizr', get_template_directory_uri().'/js/vendor/modernizr-2.6.2.min.js', "2.6.5", false);
-    wp_enqueue_script( 'jquery-nivo-slider', get_template_directory_uri().'/js/vendor/jquery.nivo.slider.pack.js', array('jquery'), "3.2.0", true);
+    
     wp_enqueue_script( 'theme-plugins-script', get_template_directory_uri().'/js/plugins.js', array('jquery'), "1.0.0", true);
     wp_enqueue_script( 'theme-init-script', get_template_directory_uri().'/js/main.js', array('jquery'), "1.0.0", true);
   }
