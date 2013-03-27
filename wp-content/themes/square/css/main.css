@@ -97,6 +97,18 @@ a:visited{
     width: 100%;
 }
 
+/* ==========================================================================
+   Cyclone Slider 2
+   ========================================================================== */
+
+.cycloneslider-caption-description {
+    padding: 0 20px 10px 20px !important;
+}
+
+.cycloneslider-caption-title{
+    font-size: 1em !important;
+    padding: 10px 20px 0 20px !important;
+}
 
 /* ==========================================================================
    Media Queries
@@ -132,6 +144,19 @@ a:visited{
     #title, #tagline{
         margin-left: 0;
         text-align: center;
+    }
+
+    .cycloneslider-caption-description {
+        padding: 0 20px 5px 20px !important;
+    }
+
+    .cycloneslider-caption-title{
+        font-size: 1em !important;
+        padding: 5px 20px 0 20px !important;
+    }
+
+    .cycloneslider-pager{
+        display: none !important;
     }
 }
 

@@ -24,6 +24,14 @@
                     <h2 id="tagline"><?php echo get_bloginfo("description"); ?></h2> 
                 </section>
 
-                <?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
+                <!-- Easing Slider Lite
+
+                    <?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
+
+                -->
+
+                <!-- Cyclone SLider 2 -->
+
+                    <?php echo do_shortcode('[cycloneslider id="forside-slider"]') ?>
 
             </section>
