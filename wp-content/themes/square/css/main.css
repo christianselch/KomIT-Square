@@ -32,6 +32,13 @@ a:visited{
     margin-bottom: 20px;
 }
 
+#header a, #header a:hover, #header a:visited{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 450px;
+}
+
 #logo{
     float: left;
     margin: 15px;
@@ -67,6 +74,10 @@ a:visited{
 }
 
 #main{
+    width: 100%;
+}
+
+#main.withSidebar{
     width: 70%;
 }
 
@@ -96,6 +107,56 @@ a:visited{
     text-align: center;
     width: 100%;
 }
+
+.backLink a{
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Contact Form 7
+   ========================================================================== */
+
+.wpcf7-container{
+    font-weight: bold;
+}
+
+.wpcf7-textarea, .wpcf7-text{
+    padding: 10px 10px;
+    font-size: 1em;
+}
+
+.wpcf7-text{
+    width: 600px;
+}
+
+.wpcf7-textarea{
+    width: 602px;
+}
+
+.wpcf7-submit.button{
+    font-size: 0.9em;
+    background-color: #A8BFBF;
+}
+
+.wpcf7-not-valid-tip{
+    right: 0%;
+    top: -72% !important;
+    left: auto !important;
+}
+
+
+.your-message .wpcf7-not-valid-tip{
+    top: -5%;
+}
+
+.wpcf7-form.invalid .wpcf7-response-output{
+    margin: 0;
+    padding: 20px 10px;
+    border: 1px solid #A8BFBF;
+    background-color: #DCC;
+    text-align: center;
+}
+
 
 /* ==========================================================================
    Cyclone Slider 2
@@ -218,4 +279,55 @@ a:visited{
 
 .clearfix {
     *zoom: 1;
+}
+
+.button { 
+    position: relative; 
+    overflow: visible; 
+    display: inline-block; 
+    padding: 0.5em 1em; 
+    border: 1px solid #d4d4d4; 
+    margin: 0;
+    text-decoration: none; 
+    text-shadow: 1px 1px 0 #fff; 
+    font:11px/normal sans-serif; 
+    color: #333; 
+    white-space: nowrap; 
+    cursor: pointer; 
+    outline: none; 
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box; 
+    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0.2em; 
+    -moz-border-radius: 0.2em; 
+    border-radius: 0.2em; 
+    /* IE hacks */
+    zoom: 1; 
+    *display: inline; 
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    border-color: #3072b3;
+    border-bottom-color: #2a65a0;
+    text-decoration: none; 
+}
+
+.button:active,
+.button.active {
+    border-color: #2a65a0;
+    border-bottom-color: #3884CF;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
 }

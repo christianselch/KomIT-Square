@@ -6,7 +6,7 @@ Template Name: Forside
 <?php get_header();
    while (have_posts()) : the_post(); ?>
             <section id="middle" class="clearfix">
-                <section id="main">
+                <section id="main" class="withSidebar">
                     <?php
                         the_content('', false);
                     ?>
@@ -31,6 +31,10 @@ Template Name: Forside
                             echo '<span class="contactLine">'.$contactLine.'</span>';
                         }
                     ?>
+
+                    <span class="contactLine contactHeader">Gavebestilling</span>
+                    <span class="contactLine">Gavekurve kan bestilles med 24 timers varsel.</span>
+                    <span class="contactLine">Tryk <a href="<?php echo get_bloginfo('url') ?>/kontakt/">her</a> for at bestille en.</span>
                 </aside>
             </section>
 <?php endwhile;

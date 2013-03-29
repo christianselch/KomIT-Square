@@ -18,10 +18,12 @@
     <body>
         <div id="wrapper">
             <section id="top">
-                <section id="header" class="clearfix">
-                    <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.notext.png" alt="logo" />
-                    <h1 id="title"><?php echo get_bloginfo("name"); ?></h1>
-                    <h2 id="tagline"><?php echo get_bloginfo("description"); ?></h2> 
+                <section id="header">
+                    <a href="<?php echo get_bloginfo('url') ?>" class="clearfix">
+                        <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.notext.png" alt="logo" />
+                        <h1 id="title"><?php echo get_bloginfo("name"); ?></h1>
+                        <h2 id="tagline"><?php echo get_bloginfo("description"); ?></h2>
+                    </a>
                 </section>
 
                 <!-- Easing Slider Lite

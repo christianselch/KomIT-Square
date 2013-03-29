@@ -21,5 +21,9 @@
 	        }
 		})
 		$(window).trigger("resize");
+
+		if($(".wpcf7-response-output").length > 0){
+			$(".wpcf7-response-output").remove().insertBefore($(".wpcf7-form p:first"));
+		}
 	});
 })(jQuery);
