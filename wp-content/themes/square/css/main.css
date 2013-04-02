@@ -147,7 +147,7 @@ a:visited{
 
 
 .your-message .wpcf7-not-valid-tip{
-    top: -5%;
+    top: -5% !important;
 }
 
 .wpcf7-form.invalid .wpcf7-response-output{
@@ -223,6 +223,22 @@ a:visited{
 
     .cycloneslider-pager{
         display: none !important;
+    }
+
+    .wpcf7-not-valid-tip{
+        top: -65% !important;
+    }  
+
+    .your-message .wpcf7-not-valid-tip{
+        top: -10% !important;
+    }
+}
+
+@media (max-width: 342px) { /* Hides slider, since it's not looking good in such a narrow viewpoint - Width based, on when the tagline wraps */
+
+    .cycloneslider{
+        display: none;
+        visibility: none;
     }
 }
 
