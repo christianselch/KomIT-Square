@@ -19,7 +19,6 @@ a:visited{
 }
 
 #wrapper{
-    min-width: 350px;
     max-width: 880px;
     margin: 30px auto 0;
     background-color: #F2F1EB;
@@ -174,7 +173,7 @@ a:visited{
 }
 
 /* ==========================================================================
-   Media Queries
+   Media Queries - Mobile-related fixes
    ========================================================================== */
 
 @media (max-width: 600px) {
@@ -202,6 +201,10 @@ a:visited{
         float: none;
         margin: 15px auto 0;
         display: block;
+    }
+
+    #header a{
+        width: auto !important;
     }
 
     #title, #tagline{
