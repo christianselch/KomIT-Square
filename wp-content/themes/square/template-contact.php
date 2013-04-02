@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Kontakt
+Template Name: Gavekurv kontaktformular
 */
 ?>
 <?php get_header();

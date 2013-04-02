@@ -126,11 +126,13 @@ a:visited{
 }
 
 .wpcf7-text{
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .wpcf7-textarea{
-    width: 602px;
+    max-width: 602px;
+    width: 100%;
 }
 
 .wpcf7-submit.button{
